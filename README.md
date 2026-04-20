@@ -1,7 +1,7 @@
 # 🎵 Nio Music Premium
 
 ![Banner](https://img.shields.io/badge/Status-Operacional-success?style=for-the-badge&logo=statuspage)
-![Version](https://img.shields.io/badge/Versão-1.0.5-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/Versão-1.0.8-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/Licença-Premium-gold?style=for-the-badge)
 
 O **Nio Music Premium** é um ecossistema completo para download e gerenciamento de músicas em alta fidelidade. Unindo uma interface inspirada no *Spotify* e *YouTube Music* com um motor de processamento robusto, ele oferece uma experiência desktop definitiva com sistema de licenciamento inteligente.
@@ -57,23 +57,3 @@ O projeto funciona através de uma ponte segura entre o cliente e o servidor:
 4.  **Servidor Discord:** Atua como o validador de acesso VIP em tempo real.
 
 ---
-
-## 🚀 Como Rodar o Projeto
-
-### Pré-requisitos
-* Node.js v18 ou superior.
-* Arquivos `ffmpeg.exe` e `yt-dlp.exe` na raiz do projeto.
-
-### Instalação
-```bash
-# Clone o repositório
-git clone [https://github.com/seu-usuario/nio-music.git](https://github.com/seu-usuario/nio-music.git)
-
-# Entre na pasta
-cd nio-music
-
-# Instale as dependências
-npm install
-
-# Inicie em modo desenvolvimento
-npm run dev
